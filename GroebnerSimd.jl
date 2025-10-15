@@ -139,7 +139,6 @@ function my_isgb(G::Vector{SIMD4.PolyNom{W}},c) where{W}
     return true
 end
 
-groebner_walk
 
 function reduce_groebner(G)
     i = 1
