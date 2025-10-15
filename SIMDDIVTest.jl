@@ -8,7 +8,7 @@ include("NotCIrc.jl")
 using .SIMD4
 using .SIMD9
 
-n=1000
+n=5
 
 
 vars = ["x$i" for i in 1:n]
